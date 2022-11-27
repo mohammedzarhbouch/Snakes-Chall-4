@@ -2,26 +2,28 @@
 v_lijst = []
 lijst_lengte = 10000000
 
-for i in range(lijst_lengte):
-    item = input("voor wie stemt u: ")
+for item in range(lijst_lengte):
+    item = input("voor wie stemt u: ").lower()
     v_lijst.append(item)
-    if item == "uitslag!":
-        v_lijst.remove("uitslag!")
+    if item == "UITSLAG!":
+        v_lijst.remove("UITSLAG!")
         break
     
 def verkiezing(List):
     counter = 0
-    num = List[0]
+    names = List[0]
      
-    for i in List:
-        curr_frequency = List.count(i)
+    for item in List:
+        curr_frequency = List.count(item)
         if(curr_frequency > counter):
             counter = curr_frequency
-            num = i
+            names = item
+        
  
-    return num
+    return names
 
 list = v_lijst
 print(verkiezing(list))
+
 
 
