@@ -159,6 +159,7 @@
 # dog_info("kismo", 5)
 
 
+<<<<<<< Updated upstream
 def uppercase(text):
     return text.upper()
 
@@ -169,3 +170,8 @@ names = ["nick","jane","sarah"]
 
 for name in names:
     print(uppercase(name))
+=======
+
+
+print("hallo"[::-1])
+>>>>>>> Stashed changes

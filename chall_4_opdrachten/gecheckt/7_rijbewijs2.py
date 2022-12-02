@@ -30,4 +30,4 @@ print (age)
 if age >= 18:
     print("u mag als u een WA bij u hebt en een motorhelm op hebt, gaan motorrijden")
 if age <= 17:
-    print("je mag niet motorrijden")
+    print("u mag niet motorrijden")

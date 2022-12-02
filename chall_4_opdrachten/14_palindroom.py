@@ -1,10 +1,9 @@
-my_str = input("geef mij een woord: ")
+woord = input("geef hier uw woord door: ")
 
-my_str = my_str.casefold()
+if woord == woord[::-1]:
 
-rev_str = reversed(my_str)
+    print("dit is een palindroom")
 
-if list(my_str) == list(rev_str):
-   print("dit woord is wel een palindroom")
 else:
-   print("dit woord is niet een palindroom")
+
+    print("dit is niet een palindroom")

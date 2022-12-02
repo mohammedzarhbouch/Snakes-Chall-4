@@ -1,10 +1,10 @@
 
 
-def ver_Num(a,b): #function for find product
+def nummers(a,b): 
     multiply = a * b
-    return multiply; #return value
+    return multiply
 
 num1 = int(input("geef mij het eerste nummer:\n"))
 num2 = int(input("geef mij het tweede nummer:\n")) 
 
-print("The uitkomst is",ver_Num(num1,num2)) #call te function
+print("de uitkomst is",nummers(num1,num2)) 

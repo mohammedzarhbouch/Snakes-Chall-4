@@ -1,13 +1,10 @@
-v_lijst = []
 
-lijst_lengte = 10000000
-
-for i in range(lijst_lengte):
-    item = input("wat wil jij voor sinterklaas: ")
-    v_lijst.append(item)
-    if item == "klaar":
-        v_lijst.remove("klaar")
+inputs = []
+while True:
+    inp = input("wat wil jij voor sinterklaas? type KLAAR als je klaar bent:\n")
+    if inp == "KLAAR":
         break
+    inputs.append(inp)
     
-    
-print(v_lijst)
+inputs.sort()
+print(inputs)

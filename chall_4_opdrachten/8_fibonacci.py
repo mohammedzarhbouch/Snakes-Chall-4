@@ -13,7 +13,7 @@ def fib(x):
         print(b)
         
         
-        for i in range(2, x):
+        for i in range(3, x):
             
             c = a + b
             a = b

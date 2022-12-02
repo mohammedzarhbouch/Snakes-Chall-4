@@ -17,4 +17,4 @@ for i in range(int(aantal_spelers)):
 
 lijst2.sort(reverse = True)
 
-print(f"de speler met deze score: {lijst2[0]} heeft gewonnen" )
+print(f"de speler met de score: {lijst2[0]} heeft gewonnen" )

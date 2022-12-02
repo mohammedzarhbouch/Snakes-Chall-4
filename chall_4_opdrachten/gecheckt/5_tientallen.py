@@ -1,9 +1,10 @@
 
-number = 10
+number = 1
 
 while number < 101:
     print(number)
-    nummer = number + 10
+    number = number + 10
+         
     
 
         
